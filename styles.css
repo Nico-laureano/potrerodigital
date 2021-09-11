@@ -1,0 +1,53 @@
+
+body {
+  font-family: Arial;
+  background-color: #F9F9F9;
+  color: #7a7a7a;
+}
+
+.titulo-1 {
+  text-align: center;
+  color: #fff;
+  font-family: Bahnschrift;
+  background-image: url(img/fondo-titulo.jpg);
+  padding: 72px;
+  margin: auto;
+  font-size: 300%;
+}
+
+.titulo-2 {
+  text-align: center;
+  color: #007B8F;
+}
+
+.parrafo {
+  text-align: center;
+}
+
+.foto-empanadas {
+  display: block;
+  margin:auto;
+  width: 450px;
+}
+
+.receta {
+  text-align: center;
+}
+
+.receta h4 {
+  color: #5f5e5e;
+}
+
+.receta h3 {
+  text-decoration: underline;
+  color: #007B8F;
+}
+
+.video-1 {
+  display: block;
+  margin:auto;
+}
+
+.fuente {
+  text-align: center;
+}
