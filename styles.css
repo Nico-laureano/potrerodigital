@@ -63,7 +63,7 @@ section {
 .identidad-sitio {
   display: inline;
   vertical-align: middle;
-  padding-right: 55%;
+  padding-right: 48.8%;
 }
 
 nav {
@@ -77,6 +77,11 @@ nav {
   padding: 10px;
   text-decoration: none;
   color: #8E5C4C;
+  transition: .2s;
+}
+
+.menu-nav:hover {
+  color: #92EBBE;
 }
 
 header {
@@ -111,7 +116,7 @@ header {
 }
 
 .icono-whatsapp {
-  width: 10%;
+  width: 7%;
   position: fixed;
   top: 75%;
   left: 1px;

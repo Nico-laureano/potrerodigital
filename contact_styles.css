@@ -1,0 +1,130 @@
+body {
+  font-family: Montserrat;
+  background-color: #F9F9F9;
+  color: #7a7a7a;
+}
+
+.identidad-sitio {
+  display: inline;
+  vertical-align: middle;
+  padding-right: 48.8%;
+}
+
+nav {
+  float: inherit;
+  vertical-align: middle;
+  height: auto;
+  display: inline;
+}
+
+.menu-nav {
+  padding: 10px;
+  text-decoration: none;
+  color: #8E5C4C;
+  transition: .2s;
+}
+
+.menu-nav:hover {
+  color: #92EBBE;
+}
+
+header {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.pie-de-pagina {
+  background-color: #92EBBE;
+  clear: right;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  padding: 2%;
+}
+
+.pie-de-pagina .red-social {
+  padding: 10px;
+  width: 40px;
+}
+
+.redes-sociales {
+  text-align: center;
+}
+
+.icono-whatsapp {
+  width: 115px;
+  position: fixed;
+  top: 75%;
+  left: 1px;
+}
+
+section {
+  margin-left: 5%;
+  vertical-align: middle;
+  display: inline-block;
+  width: 45%;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.input__1 {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 38px;
+  width: 100%;
+  border: none;
+  font-family: Montserrat;
+}
+
+.input__1:focus {
+  outline: none;
+  box-shadow: 1px 1px 3px 1px #DDDDDD;
+}
+
+.text__area {
+  height: 200px;
+}
+
+.input__button {
+  background-color: #92EBBE;
+  border: none;
+  font-family: Montserrat;
+  padding: 5px;
+  width: 100px;
+  height: 38px;
+  color: #8E5C4C;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.input__button:hover {
+  background-color: #8E5C4C;
+  color: #92EBBE;
+}
+
+aside {
+  float: right;
+  margin-right: 5%;
+  width: 45%;
+}
+
+aside .maps {
+  width: 80%;
+  padding: 30px;
+  display: block;
+  margin: auto;
+  height: 483px;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
