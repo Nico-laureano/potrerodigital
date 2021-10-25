@@ -95,6 +95,21 @@ section {
   text-align: center;
 }
 
+.Recetas-relacionadas {
+  padding-bottom: 20px;
+  color: #8E5C4C;
+  margin-left: 5%;
+}
+
+.btn-1 {
+  text-decoration: none;
+  color: #7A7A7A;
+}
+
+.btn-1:hover {
+  color: #92EBBE;
+}
+
 /* ////////////////// ASIDE ////////////////// */
 
 .datos {
