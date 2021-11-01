@@ -14,6 +14,9 @@
     <meta name="keywords" content="Recetas, Cocinas, Empananadas, Mendoza, Chef">
     <meta name="author" content="Nicolas Sanchez">
     <meta http-equiv="cache-control" content="no-cache"/>
+    <!--  <script type="text/javascript">
+      alert("¿Esta dispuesto a ver el mejor sitio de la gastronomia mundial?")
+    </script> -->
 
   </head>
 
@@ -22,17 +25,23 @@
     <header class="encabezado">
 
       <div class="identidad-sitio">
-        <a href="index.html"><img src="img/chef_pro_logo.png" alt="chef_pro_logo"></a>
+        <a href="index.html"><img src="img/chef_pro_logo.png" alt="chef_pro_logo" id="Logo"></a>
         </div><nav class="menu">
-            <a href="index.html" class="menu-nav">Inicio</a>
-            <a href="https://cocinerosargentinos.com/carne/empanadas-santiaguenas-1" target="_blank" class="menu-nav">Empanadas Salteñas</a>
-            <a href="https://cocinerosargentinos.com/postres/almendrado-2" target="_blank" class="menu-nav">Postres</a>
-            <a href="https://cocinerosargentinos.com/recetas" target="_blank" class="menu-nav">Otras recetas</a>
-            <a href="contacto.html" class="menu-nav">Contacto</a>
+            <a href="index.html" class="menu-nav" id="Menu-nav">Inicio</a>
+            <a href="https://cocinerosargentinos.com/carne/empanadas-santiaguenas-1" target="_blank" class="menu-nav" id="Menu-nav__2">Empanadas Salteñas</a>
+            <a href="https://cocinerosargentinos.com/postres/almendrado-2" target="_blank" class="menu-nav" id="Menu-nav__3">Postres</a>
+            <a href="https://cocinerosargentinos.com/recetas" target="_blank" class="menu-nav" id="Menu-nav__4">Otras recetas</a>
+            <a href="contacto.html" class="menu-nav" id="Menu-nav__5">Contacto</a>
           </nav>
     </header>
 
                     <h1 class="titulo-1">EMPANADAS MENDOCINAS</h1><br>
+    <div class="modo-oscuro" id="Alert-Modo-Oscuro">
+      <img src="img/moon-solid.svg" alt="luna-modo-oscuro" class="moon-solid"> <h2>¿Deseas activar el modo oscuro?</h2>
+      <script src="js/script.js"></script>
+      <button onclick="activarOn()" class="boton-activar-on">Activar</button>
+
+    </div>
     <section>
 
       <h2 class="titulo-2">Receta tipica de la region de Mendoza, ideal para acompañar con un Malbec.</h2><br>
@@ -132,15 +141,15 @@
     <div class="container">
       <div class="row">
         <div class="card-1 col-sm-12 col-md-6 col-lg-3">
-          <div class="card" style="width: 18rem;">
+          <div class="card" id="card__1">
             <img src="img/empanadas_santiagueñas.jpeg" class="card-img-top" alt="empanadas-santiagueñas">
             <div class="card-body">
-              <a href="https://cocinerosargentinos.com/carne/empanadas-santiaguenas-1" class="btn-1" target="_blank"><h5 class="card-title">Empanadas santiagueñas</h5></a>
+              <a href="https://cocinerosargentinos.com/carne/empanadas-santiaguenas-1" class="btn-1" target="_blank"><h5 class="card-title" id="card-title-1">Empanadas santiagueñas</h5></a>
             </div>
           </div>
         </div>
         <div class="card-2 col-sm-12 col-md-6 col-lg-3">
-          <div class="card" style="width: 18rem;">
+          <div class="card" id="card__2">
             <img src="img/almendrado.jpeg" class="card-img-top" alt="almendrado">
             <div class="card-body">
               <a href="https://cocinerosargentinos.com/postres/almendrado-2" class="btn-1" target="_blank"><h5 class="card-title">Almendrado</h5></a>
@@ -148,7 +157,7 @@
           </div>
         </div>
         <div class="card-3 col-sm-12 col-md-6 col-lg-3">
-          <div class="card" style="width: 18rem;">
+          <div class="card" id="card__3">
             <img src="img/tres_leches.jpeg" class="card-img-top" alt="tres-leches">
             <div class="card-body">
               <a href="https://cocinerosargentinos.com/pasteleria/torta-3-leches" class="btn-1" target="_blank"><h5 class="card-title">Tres Leches</h5></a>
@@ -156,10 +165,10 @@
           </div>
         </div>
         <div class="card-4 col-sm-12 col-md-6 col-lg-3">
-          <div class="card" style="width: 18rem;">
+          <div class="card" id="card__4">
             <img src="img/focaccia.jpeg" class="card-img-top" alt="Focaccia">
             <div class="card-body">
-              <a href="https://cocinerosargentinos.com/pizzas/focaccia-de-papa-y-romero" class="btn-1" target="_blank"><h5 class="card-title">Focaccia</h5></a>
+              <a href="https://cocinerosargentinos.com/pasteleria/torta-3-leches" class="btn-1" target="_blank"><h5 class="card-title">Focaccia</h5></a>
             </div>
           </div>
         </div>
@@ -167,7 +176,7 @@
       </div>
 
     </div>
-    <footer class="pie-de-pagina">
+    <footer class="pie-de-pagina" id="Footer">
 
       <div class="redes-sociales">
 
@@ -176,6 +185,8 @@
         <a href="https://twitter.com/cocinerosarg" target="_blank"><img src="img/twitter.png" alt="tw-logo" class="red-social"></a>
 
       </div>
+      <script src="js/script.js"></script>
+      <button onclick="DatosCreador()" class="Datos-creador">Diseñado por</button>
 
     </footer>
 
